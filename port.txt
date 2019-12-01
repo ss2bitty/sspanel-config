@@ -1,0 +1,9 @@
+SSR:
+   defaults.setValue(1083, forKey: "LocalSocks5.ListenPort")
+   defaults.setValue(1075, forKey: "LocalHTTP.ListenPort")
+   defaults.setValue(8093, forKey: "PacServer.ListenPort")
+  
+V2ray
+   UserDefaults.set(forKey: .localHttpPort, value: "1090")
+   UserDefaults.set(forKey: .localSockPort, value: "1097")
+   UserDefaults.set(forKey: .localPacPort, value: "1095")
